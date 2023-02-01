@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container0">
+      <h1>Student Registration Form</h1>
+      <form class="form-container" id="form">
+        <div class="inp-container">
+          <label for="firstname">First name:</label>
+          <input id="firstname" class="inp" type="text" minlength="5"  maxlength="20"  placeholder="First name"/>
+        </div>
+        <div class="inp-container">
+          <label for="middle-name">Middle name:</label>
+          <input id="middle-name" class="inp" type="text" minlength="5"  maxlength="20" placeholder="Middle name"/>
+        </div>
+        <div class="inp-container">
+          <label for="last-name">Last name:</label>
+          <input id="last-name" class="inp" type="text" minlength="5"  maxlength="20" placeholder="Last name"/>
+        </div>
+        <div class="mt-40">
+          <label for="course">Course:</label>
+          <select id="course">
+            <option value="">Course</option>
+          </select>
+        </div>
+        <div class="inp-container">
+          <label>Gender:</label>
+          <br />
+          <div class="d-flex justify-s mt-10 g-40">
+            <div>
+              <label for="mail">Mail:</label>
+              <input id="mail" type="radio" />
+            </div>
+           <div>
+            <label for="Femail">Femail:</label>
+            <input id="Femail" type="radio" />
+           </div>
+           <div>
+            <label for="Other">Other:</label>
+            <input id="Other" type="radio" />
+           </div>
+          </div>
+        </div>
+        <div class="inp-container">
+          <label for="phone-cuntry-num">Phone:</label>
+          <input id="phone-cuntry-num" class="inp" type="text" value="+91" />
+        </div>
+        <div class="inp-container">
+          <label ></label>
+          <input id="phone-number" class="inp" type="text" placeholder="phone no."/>
+        </div>
+        <div class="inp-container">
+          <label for="addres">Current Address:</label>
+          <input id="addres" class="inp addres-style" type="text" />
+        </div>
+        <div class="inp-container">
+          <label for="email">Email:</label>
+          <input id="email" class="inp" type="text" />
+        </div>
+        <div class="inp-container">
+          <label for="pass">Password:</label>
+          <input id="pass" class="inp" type="text" />
+        </div>
+        <div class="inp-container">
+          <label for="re-pass">Re-type Password:</label>
+          <input id="re-pass" class="inp" type="text" />
+        </div>
+        <button class="btn">Register</button>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
