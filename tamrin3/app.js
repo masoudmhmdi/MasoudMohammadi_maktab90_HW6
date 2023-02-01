@@ -8,5 +8,13 @@ let uniqArry=(arry)=>{
     return uniqArr
 }
 
+let uniqArry2=(arry)=>{
+    let uniqArr =[...new Set(arry)]
+    return uniqArr
+
+}
+
+
 console.log(uniqArry(testArr))
+console.log(uniqArry2(testArr))
 
